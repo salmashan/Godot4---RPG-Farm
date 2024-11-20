@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://c4l26jpiv5jk"]
+
+[ext_resource type="Script" path="res://Collectable/collectable.gd" id="1_hpb8g"]
+[ext_resource type="Resource" uid="uid://5tw6rspf6jor" path="res://Player/blueflower.tres" id="2_03nu7"]
+[ext_resource type="Resource" uid="uid://nkhwuuh0jbq1" path="res://Res/playerInventory.tres" id="3_6m0ns"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tkk1p"]
+resource_local_to_scene = true
+
+[node name="Collectable" type="Area2D"]
+script = ExtResource("1_hpb8g")
+itemRes = ExtResource("2_03nu7")
+inventory = ExtResource("3_6m0ns")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_tkk1p")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

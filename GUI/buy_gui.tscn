@@ -1,0 +1,53 @@
+[gd_scene load_steps=4 format=3 uid="uid://b4w6d4qyghx5o"]
+
+[ext_resource type="Script" path="res://GUI/buy_gui.gd" id="1_mk4bl"]
+[ext_resource type="Texture2D" uid="uid://bxpmhox8b070x" path="res://Art/Deck/InventoryRect.png" id="2_sf46j"]
+[ext_resource type="PackedScene" uid="uid://vmyn517k7qua" path="res://GUI/slotmall_gui.tscn" id="3_hn0af"]
+
+[node name="BuyGui" type="Control"]
+custom_minimum_size = Vector2(131, 33)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 131.0
+offset_bottom = 33.0
+script = ExtResource("1_mk4bl")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 0
+offset_right = 131.0
+offset_bottom = 33.0
+texture = ExtResource("2_sf46j")
+patch_margin_left = 6
+patch_margin_top = 6
+patch_margin_right = 6
+patch_margin_bottom = 6
+
+[node name="GridContainer" type="GridContainer" parent="NinePatchRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -58.0
+offset_top = -10.0
+offset_right = 58.0
+offset_bottom = 10.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 5
+
+[node name="Slot" parent="NinePatchRect/GridContainer" instance=ExtResource("3_hn0af")]
+layout_mode = 2
+
+[node name="Slot2" parent="NinePatchRect/GridContainer" instance=ExtResource("3_hn0af")]
+layout_mode = 2
+
+[node name="Slot3" parent="NinePatchRect/GridContainer" instance=ExtResource("3_hn0af")]
+layout_mode = 2
+
+[node name="Slot4" parent="NinePatchRect/GridContainer" instance=ExtResource("3_hn0af")]
+layout_mode = 2
+
+[node name="Slot5" parent="NinePatchRect/GridContainer" instance=ExtResource("3_hn0af")]
+layout_mode = 2

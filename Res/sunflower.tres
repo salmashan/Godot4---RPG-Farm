@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MallItem" load_steps=4 format=3 uid="uid://i7roj2c0e37b"]
+
+[ext_resource type="Script" path="res://Res/mallItem.gd" id="1_d68fu"]
+[ext_resource type="Texture2D" uid="uid://deidaqcxtifl6" path="res://Art/Icon/Basic_Furniture.png" id="2_vodpy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2rf88"]
+atlas = ExtResource("2_vodpy")
+region = Rect2(50.8742, -0.106573, 11.1366, 15.2141)
+
+[resource]
+script = ExtResource("1_d68fu")
+name = "sunflower"
+texture = SubResource("AtlasTexture_2rf88")

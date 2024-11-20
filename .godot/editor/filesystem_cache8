@@ -1,0 +1,70 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1732084156
+clock.gd::GDScript::-1::1732084156::0::1::::<>Area2D<>::
+icon.svg::CompressedTexture2D::5002667489229928396::1731972203::1731972214::1::::<><>::
+::res://Art/::1732085311
+::res://Art/Chara/::1731972777
+pixil-frame-0 (93).png::CompressedTexture2D::562985437968259054::1731972362::1731972777::1::::<><>::
+::res://Art/Deck/::1731985066
+hotbar_selector.png::CompressedTexture2D::6974851525898715496::1731985022::1731985066::1::::<><>::
+InventoryRect.png::CompressedTexture2D::4032471630508403745::1731985007::1731985066::1::::<><>::
+inventorySlot.png::CompressedTexture2D::8469853817057345734::1731985013::1731985066::1::::<><>::
+::res://Art/Icon/::1731988728
+Basic_Furniture.png::CompressedTexture2D::7456715443176147193::1640133206::1731988728::1::::<><>::
+::res://Art/Item/::1731992701
+::res://Art/Music/::1732085312
+bored, honestly.mp3::AudioStreamMP3::7891274203325458004::1665681644::1732085315::1::::<><>::
+::res://Art/Tiles/::1731978811
+Bitmask references 1.png::CompressedTexture2D::7201003544738201240::1702869342::1731978811::1::::<><>::
+Bitmask references 2.png::CompressedTexture2D::2212975544388895859::1702869346::1731978811::1::::<><>::
+Doors.png::CompressedTexture2D::5926978026909255580::1721544766::1731978811::1::::<><>::
+Fences.png::CompressedTexture2D::2873540032076458777::1640132132::1731978811::1::::<><>::
+Grass.png::CompressedTexture2D::2775855084738489075::1702884052::1731978811::1::::<><>::
+Hills.png::CompressedTexture2D::2583575334396813983::1702883662::1731978811::1::::<><>::
+interior free.png::CompressedTexture2D::6780715271540121330::1639028386::1731978312::1::::<><>::
+Tilled_Dirt.png::CompressedTexture2D::180077491278563093::1719669618::1731978811::1::::<><>::
+Tilled_Dirt_v2.png::CompressedTexture2D::1813583814449218049::1714481408::1731978811::1::::<><>::
+Tilled_Dirt_Wide.png::CompressedTexture2D::751793859969714177::1719669578::1731978811::1::::<><>::
+Tilled_Dirt_Wide_v2.png::CompressedTexture2D::139036016367454713::1719670184::1731978811::1::::<><>::
+Water.png::CompressedTexture2D::6715358001838334367::1640131722::1731978811::1::::<><>::
+Wooden_House_Roof_Tilset.png::CompressedTexture2D::2655126248510885597::1721544444::1731978811::1::::<><>::
+Wooden_House_Walls_Tilset.png::CompressedTexture2D::2142610231170570354::1721116988::1731978811::1::::<><>::
+::res://Collectable/::1732068557
+clock.tscn::PackedScene::1788517420612998446::1732054862::0::1::::<><>::uid://c4l26jpiv5jk::::res://Collectable/collectable.tscn<>uid://deidaqcxtifl6::::res://Art/Icon/Basic_Furniture.png<>res://clock.gd
+collectable.gd::GDScript::-1::1732046765::0::1::::<>Area2D<>::
+collectable.tscn::PackedScene::200962388319838204::1732068557::0::1::::<><>::res://Collectable/collectable.gd<>uid://5tw6rspf6jor::::res://Player/blueflower.tres<>uid://nkhwuuh0jbq1::::res://Res/playerInventory.tres
+::res://GUI/::1732084982
+buy_gui.gd::GDScript::-1::1732009053::0::1::::<>Control<>::
+buy_gui.tscn::PackedScene::4469202592935626110::1732083737::0::1::::<><>::res://GUI/buy_gui.gd<>uid://bxpmhox8b070x::::res://Art/Deck/InventoryRect.png<>uid://vmyn517k7qua::::res://GUI/slotmall_gui.tscn
+hotbar.gd::GDScript::-1::1732084743::0::1::::<>Panel<>::
+hotbar.tscn::PackedScene::5225936804925501961::1732083738::0::1::::<><>::uid://f7qc13rrswny::::res://GUI/hotbar_slot.tscn<>res://GUI/hotbar.gd
+hotbar_slot.gd::GDScript::-1::1732068484::0::1::::<>Button<>::
+hotbar_slot.tscn::PackedScene::417980759449628650::1732084982::0::1::::<><>::res://GUI/hotbar_slot.gd<>uid://dsw4iww22lgyw::::res://Art/Deck/inventorySlot.png<>uid://55yxqnr5dgsg::::res://GUI/inventoryStackGui.tscn
+inventoryStackGui.tscn::PackedScene::2169095784117650010::1732084982::0::1::::<><>::res://GUI/inventory_stack_gui.gd
+inventory_gui.gd::GDScript::-1::1732084981::0::1::::<>Control<>::
+inventory_gui.tscn::PackedScene::6483149604098713647::1732084982::0::1::::<><>::res://GUI/inventory_gui.gd<>uid://bxpmhox8b070x::::res://Art/Deck/InventoryRect.png<>uid://bn0bii3muat4s::::res://GUI/slot_gui.tscn
+inventory_stack_gui.gd::GDScript::-1::1732084156::0::1::::InventoryStackGui<>Panel<>::
+slotmall_gui.gd::GDScript::-1::1732009088::0::1::::<>Button<>::
+slotmall_gui.tscn::PackedScene::1500220289928549128::1732084982::0::1::::<><>::res://GUI/slotmall_gui.gd<>uid://dsw4iww22lgyw::::res://Art/Deck/inventorySlot.png
+slot_gui.gd::GDScript::-1::1732052803::0::1::::<>Button<>::
+slot_gui.tscn::PackedScene::3350560562196321656::1732084982::0::1::::<><>::uid://dsw4iww22lgyw::::res://Art/Deck/inventorySlot.png<>res://GUI/slot_gui.gd
+::res://Player/::1732084981
+blueflower.tres::Resource/InventoryItem::2146280541312895545::1731993998::0::1::::<><>::res://Res/inventoryItem.gd<>uid://deidaqcxtifl6::::res://Art/Icon/Basic_Furniture.png
+player.gd::GDScript::-1::1732027540::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::5781414779465917583::1732084981::0::1::::<><>::res://Player/player.gd<>uid://iayj13axcqqo::::res://Art/Chara/pixil-frame-0 (93).png<>uid://nkhwuuh0jbq1::::res://Res/playerInventory.tres<>uid://cgtl6hnti50jq::::res://Res/mallInventory.tres
+::res://Res/::1732084936
+greenflower.tres::Resource/MallItem::8093295457679233547::1732004589::0::1::::<><>::res://Res/mallItem.gd<>uid://deidaqcxtifl6::::res://Art/Icon/Basic_Furniture.png
+inventory.gd::GDScript::-1::1732066489::0::1::::Inventory<>Resource<>::
+inventoryItem.gd::GDScript::-1::1732008453::0::1::::InventoryItem<>Resource<>::
+inventorySlot.gd::GDScript::-1::1732046765::0::1::::InventorySlot<>Resource<>::
+mall.gd::GDScript::-1::1732003908::0::1::::Mall<>Resource<>::
+mallInventory.tres::Resource/Mall::5233921241694095542::1732084936::0::1::::<><>::res://Res/mallItem.gd<>res://Res/mall.gd
+mallItem.gd::GDScript::-1::1732008453::0::1::::MallItem<>Resource<>::
+playerInventory.tres::Resource/Inventory::933564132965194742::1732084936::0::1::::<><>::res://Res/inventorySlot.gd<>res://Res/inventory.gd
+redmushroom.tres::Resource/InventoryItem::5752715562703404342::1731994109::0::1::::<><>::res://Res/inventoryItem.gd<>uid://deidaqcxtifl6::::res://Art/Icon/Basic_Furniture.png
+sunflower.tres::Resource/MallItem::628628541770210785::1732004496::0::1::::<><>::res://Res/mallItem.gd<>uid://deidaqcxtifl6::::res://Art/Icon/Basic_Furniture.png
+::res://Scenes/::1732084982
+buy_canvas.gd::GDScript::-1::1731991367::0::1::::<>CanvasLayer<>::
+canvas_layer.gd::GDScript::-1::1731990748::0::1::::<>CanvasLayer<>::
+world.gd::GDScript::-1::1732006171::0::1::::<>Node2D<>::
+world.tscn::PackedScene::4216901525871460735::1732084982::0::1::::<><>::uid://03rpwj1awcnp::::res://Art/Tiles/Tilled_Dirt_v2.png<>res://Scenes/world.gd<>uid://comtb6uhdb744::::res://Player/player.tscn<>uid://c3uvniwtcnchu::::res://Art/Tiles/interior free.png<>uid://0qmvdor6ww51::::res://Collectable/clock.tscn<>uid://c4l26jpiv5jk::::res://Collectable/collectable.tscn<>uid://c2w772y2wn3h0::::res://Art/Tiles/Water.png<>uid://bfsv6sn4b7snb::::res://Art/Tiles/Grass.png<>uid://bc2rdxglcydvj::::res://Art/Tiles/Hills.png<>uid://5r5qh7n246yo::::res://Art/Tiles/Wooden_House_Walls_Tilset.png<>uid://bd3fsn37r4xaj::::res://Art/Tiles/Wooden_House_Roof_Tilset.png<>uid://bg671w47bykgv::::res://Art/Tiles/Fences.png<>res://Scenes/canvas_layer.gd<>uid://cymqr57snxjjr::::res://GUI/inventory_gui.tscn<>uid://deidaqcxtifl6::::res://Art/Icon/Basic_Furniture.png<>res://Scenes/buy_canvas.gd<>uid://b4w6d4qyghx5o::::res://GUI/buy_gui.tscn<>uid://cgpqoerbatqrp::::res://GUI/hotbar.tscn

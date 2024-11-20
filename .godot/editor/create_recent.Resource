@@ -1,0 +1,4 @@
+Mall
+MallItem
+Inventory
+InventoryItem

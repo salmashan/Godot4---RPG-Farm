@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="InventoryItem" load_steps=4 format=3 uid="uid://cn7wnc4tqoihy"]
+
+[ext_resource type="Script" path="res://Res/inventoryItem.gd" id="1_qpdcf"]
+[ext_resource type="Texture2D" uid="uid://deidaqcxtifl6" path="res://Art/Icon/Basic_Furniture.png" id="2_wtxh6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7vdo4"]
+atlas = ExtResource("2_wtxh6")
+region = Rect2(83.018, 15.791, 9.96024, 11.158)
+
+[resource]
+script = ExtResource("1_qpdcf")
+name = "redmushroom"
+texture = SubResource("AtlasTexture_7vdo4")

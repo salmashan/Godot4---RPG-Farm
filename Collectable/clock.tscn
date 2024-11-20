@@ -1,0 +1,22 @@
+[gd_scene load_steps=6 format=3 uid="uid://0qmvdor6ww51"]
+
+[ext_resource type="PackedScene" uid="uid://c4l26jpiv5jk" path="res://Collectable/collectable.tscn" id="1_luln6"]
+[ext_resource type="Texture2D" uid="uid://deidaqcxtifl6" path="res://Art/Icon/Basic_Furniture.png" id="2_5d2ow"]
+[ext_resource type="Script" path="res://clock.gd" id="2_nlk25"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_syklj"]
+resource_local_to_scene = true
+size = Vector2(14, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hsqy1"]
+atlas = ExtResource("2_5d2ow")
+region = Rect2(83.7982, 0.764004, 7.52817, 12.4006)
+
+[node name="Clock" instance=ExtResource("1_luln6")]
+script = ExtResource("2_nlk25")
+
+[node name="CollisionShape2D" parent="." index="0"]
+shape = SubResource("RectangleShape2D_syklj")
+
+[node name="Sprite2D" parent="." index="1"]
+texture = SubResource("AtlasTexture_hsqy1")

@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Mall" load_steps=3 format=3 uid="uid://cgtl6hnti50jq"]
+
+[ext_resource type="Script" path="res://Res/mallItem.gd" id="1_t27cm"]
+[ext_resource type="Script" path="res://Res/mall.gd" id="4_6kfu2"]
+
+[resource]
+script = ExtResource("4_6kfu2")
+items = Array[ExtResource("1_t27cm")]([null, null, null, null, null, null])
